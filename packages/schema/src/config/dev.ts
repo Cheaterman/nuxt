@@ -29,6 +29,9 @@ export default defineResolvers({
      */
     host: process.env.NUXT_HOST || process.env.NITRO_HOST || process.env.HOST || undefined,
 
+    /** Dev server listening socket */
+    socket: process.env.NUXT_SOCKET || process.env.NITRO_SOCKET || process.env.SOCKET || undefined,
+
     /**
      * Listening dev server URL.
      *
